@@ -1,0 +1,127 @@
+.parent {
+    background-color: rgb(197, 176, 216);
+    padding: 10px;
+    border: 1px solid rgb(191, 97, 97);
+    /*margin: 10px;*/
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    margin: 10px 5px 7px 15px;
+    width: 60px;
+    box-sizing: 40px;
+
+    p {
+        background-color: beige;
+        width: fit-content;
+    }
+
+    span {
+        background-color: rgb(169, 128, 74);
+    }
+}
+
+.allignment {
+    text-align: center;
+    background-color: lawngreen;
+    width: 100px;
+    margin: 0 0 0 auto;
+}
+
+img {
+    display: block;
+
+    /*now behave like a block element and block css work on inline element*/
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+
+}
+
+#p1 {
+    background-color: chartreuse;
+}
+
+.p2 {
+    background-color: rgb(114, 114, 217);
+}
+
+.p3 {
+    background-color: rgb(178, 103, 103);
+}
+
+.u1 {
+    font-size: 16 px;
+    background-color: beige;
+}
+
+.u2 {
+    font-size: 2em;
+    width: 10em;
+    background-color: rgb(76, 167, 183);
+    /*em depends upon its font size except its font size depened upon its parent.........
+    rem depends only on root tag.i.e html tag  */
+}
+
+.btn {
+    padding: 16px;
+    border-radius: 1em;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 120px;
+}
+
+.btn-small {
+
+    padding: 16px;
+    border-radius: 1em;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 120p;
+}
+
+.btn-big {
+    font-size: 24px;
+}
+
+.table {
+    padding: 10px 20px;
+
+    ol {
+        background-color: rgb(178, 178, 100);
+    }
+
+    ul:first-child {
+        background-color: blueviolet;
+    }
+
+    ul:last-child {
+        background-color: rgb(156, 213, 99);
+
+        li:nth-child(3) {
+            background-color: rgb(214, 211, 46);
+        }
+    }
+}
+.flex{
+    background-color: rgb(68, 174, 222);
+    display: flex;
+    height: 50px;
+
+    justify-content: space-around;
+    all
+}
+.child{
+    background-color: aquamarine;
+    border: 1px solid red;
+    flex-basis: 40px
+    ;
+} 
+.cart{
+    align-self:center;
+    order: 1;
+}
